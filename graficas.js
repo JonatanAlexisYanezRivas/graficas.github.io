@@ -286,7 +286,7 @@ function estado_Municipio(idEstado){
     var char = new Chart(graficaPorEstado,{
         type: "pie",
         data:{
-            /*labels: ['AGUASCALIENTES', 'ASIENTOS', 'CALVILLO', 'COSÍO', 'JESÚS MARÍA', 'PABELLÓN DE ARTEAGA', 'RINCÓN DE ROMOS', 'SAN JOSÉ DE GRACIA', 'TEPEZALÁ', 'EL LLANO', 'SAN FRANCISCO DE LOS ROMO', 'NO ESPECIFICADO'],*/
+            labels: ['Estados','AGUASCALIENTES', 'ASIENTOS', 'CALVILLO', 'COSÍO', 'JESÚS MARÍA', 'PABELLÓN DE ARTEAGA', 'RINCÓN DE ROMOS', 'SAN JOSÉ DE GRACIA', 'TEPEZALÁ', 'EL LLANO', 'SAN FRANCISCO DE LOS ROMO', 'NO ESPECIFICADO'],
             datasets:[{
                 label:estadokey[idEstado],
                 backgroundColor:["rgb(145,215,165)","rgb(255,255,255)"],
