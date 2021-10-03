@@ -2,7 +2,7 @@
 let sexos = document.getElementById("Sexo").getContext("2d");
 
 var char = new Chart(sexos,{
-    type: "bar",
+    type: "doughnut",
     data:{
         labels:["Femenino","Masculino"],
         datasets:[{
@@ -286,11 +286,11 @@ function estado_Municipio(idEstado){
     var char = new Chart(graficaPorEstado,{
         type: "pie",
         data:{
-            labels: ['Estados','AGUASCALIENTES', 'ASIENTOS', 'CALVILLO', 'COSÍO', 'JESÚS MARÍA', 'PABELLÓN DE ARTEAGA', 'RINCÓN DE ROMOS', 'SAN JOSÉ DE GRACIA', 'TEPEZALÁ', 'EL LLANO', 'SAN FRANCISCO DE LOS ROMO', 'NO ESPECIFICADO'],
+            labels: ['Estado','AGUASCALIENTES', 'ASIENTOS', 'CALVILLO', 'COSÍO', 'JESÚS MARÍA', 'PABELLÓN DE ARTEAGA', 'RINCÓN DE ROMOS', 'SAN JOSÉ DE GRACIA', 'TEPEZALÁ', 'EL LLANO', 'SAN FRANCISCO DE LOS ROMO', 'NO ESPECIFICADO'],
             datasets:[{
                 label:estadokey[idEstado],
-                backgroundColor:["rgb(145,215,165)","rgb(255,255,255)"],
-                borderColor:"rgb(200,225,195)",
+                backgroundColor:["rgb(145,215,165)","rgb(2, 171, 255)"],
+                borderColor:"rgb(255,255,255)",
                 data:municipio
             }]
         }

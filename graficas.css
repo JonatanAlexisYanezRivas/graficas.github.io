@@ -14,18 +14,24 @@ body{
     margin-bottom: 50px;
 }
 
-.graphic-estado{
- margin: auto;
+.container{
+    margin: 40px;
+    padding: 10px;
+    background-color: rgb(2, 30, 37);
+    width: 30%;
+    float: left;
+    box-shadow: 0 0 10px rgb(2, 171, 255);
+    border-radius: 5px;
 }
 
-.content-graphics div{
+/*.content-graphics div{
     left: auto;
     margin: auto;
     width: 30%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
+}*/
 
 
 
