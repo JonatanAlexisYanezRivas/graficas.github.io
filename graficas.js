@@ -129,3 +129,108 @@ var char = new Chart(epoc,{
 /*Grafica hipertensión */
 
 let hipertension = document.getElementById("Hipertension").getContext("2d");
+let datosHipertension = [584609, 3506614];
+
+var char = new Chart(hipertension,{
+    type: "bar",
+    data:{
+        labels: ["Si","No"],
+        datasets:[{
+            label:"Hipertensión",
+            backgroundColor:"rgb(145,215,165)",
+            borderColor:"rgb(200,225,195)",
+            data:datosHipertension
+        }]
+    }
+})
+
+/*grafica cardio */
+
+let cardio = document.getElementById("Cardio").getContext("2d");
+let datosCardio = [51330, 4039935];
+
+var char = new Chart(cardio,{
+    type: "bar",
+    data:{
+        labels: ["Si","No"],
+        datasets:[{
+            label:"Cardio",
+            backgroundColor:"rgb(145,215,165)",
+            borderColor:"rgb(200,225,195)",
+            data:datosCardio
+        }]
+    }
+})
+
+/*grafica obesidad */
+
+let obesidad = document.getElementById("Obesidad").getContext("2d");
+let datosObesidad = [499824, 3591807];
+
+var char = new Chart(obesidad,{
+    type: "bar",
+    data:{
+        labels: ["Si","No"],
+        datasets:[{
+            label:"Obesidad",
+            backgroundColor:"rgb(145,215,165)",
+            borderColor:"rgb(200,225,195)",
+            data:datosObesidad
+        }]
+    }
+})
+
+/*grafica tabaquismo */
+
+let tabaquismo = document.getElementById("Tabaquismo").getContext("2d");
+let datosTabaquismo = [270135, 3820722];
+
+var char = new Chart(tabaquismo,{
+    type: "bar",
+    data:{
+        labels: ["Si","No"],
+        datasets:[{
+            label:"Tabaquismo",
+            backgroundColor:"rgb(145,215,165)",
+            borderColor:"rgb(200,225,195)",
+            data:datosTabaquismo
+        }]
+    }
+})
+
+/*grafica muertes */
+
+let muertes = document.getElementById("Muertes").getContext("2d");
+let datosMuertes = [289077,3812314];
+
+var char = new Chart(muertes,{
+    type: "bar",
+    data:{
+        labels: ["Si","No"],
+        datasets:[{
+            label:"Muertes",
+            backgroundColor:"rgb(145,215,165)",
+            borderColor:"rgb(200,225,195)",
+            data:datosMuertes
+        }]
+    }
+})
+
+/*grafica resultados/prueba covid */
+
+let resultados = document.getElementById("Resultados").getContext("2d");
+let datosResultados = [3671611, 6600961, 429780];
+
+var char = new Chart(resultados,{
+    type: "bar",
+    data:{
+        labels: ["Si","No","Sospechosos"],
+        datasets:[{
+            label:"Prueba covid",
+            backgroundColor:"rgb(145,215,165)",
+            borderColor:"rgb(200,225,195)",
+            data:datosResultados
+        }]
+    }
+})
+
